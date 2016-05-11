@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4YD-08-N9e">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RS-UV3 Repeater Controller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lbq-Ph-yW4">
+                                <rect key="frame" x="192" y="100" width="216" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES">
+                                    <rect key="frame" x="92" y="100" width="216" height="20.5"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="by" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vz5-74-vgy">
+                                <rect key="frame" x="290.5" y="232" width="19" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="190" y="174" width="19" height="20.5"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="WD9GYM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWl-56-76p">
+                                <rect key="frame" x="262" y="340" width="76" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="162" y="230" width="76" height="20.5"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arduino+megar3" translatesAutoresizingMaskIntoConstraints="NO" id="rfV-on-CKB">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="270.5" width="400" height="303.5"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rfV-on-CKB" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="8Vz-9v-cUl"/>
+                            <constraint firstItem="4YD-08-N9e" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="DDv-zN-UyK"/>
+                            <constraint firstItem="4YD-08-N9e" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="IIB-F5-Mvy"/>
+                            <constraint firstItem="tWl-56-76p" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="J6o-5j-6bs"/>
+                            <constraint firstItem="vz5-74-vgy" firstAttribute="top" secondItem="Lbq-Ph-yW4" secondAttribute="bottom" constant="53.5" id="OZc-v7-Zp4"/>
+                            <constraint firstItem="rfV-on-CKB" firstAttribute="top" secondItem="tWl-56-76p" secondAttribute="bottom" constant="20" id="Q2k-OY-Ryc"/>
+                            <constraint firstAttribute="trailing" secondItem="4YD-08-N9e" secondAttribute="trailing" id="aYl-mu-Nhx"/>
+                            <constraint firstItem="rfV-on-CKB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dJw-Cm-feW"/>
+                            <constraint firstItem="Lbq-Ph-yW4" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="100" id="gqE-eV-Iik"/>
+                            <constraint firstAttribute="bottom" secondItem="4YD-08-N9e" secondAttribute="bottom" id="i9N-L5-MTh"/>
+                            <constraint firstAttribute="trailing" secondItem="rfV-on-CKB" secondAttribute="trailing" id="kQQ-hH-ZU7"/>
+                            <constraint firstAttribute="bottom" secondItem="rfV-on-CKB" secondAttribute="bottom" constant="100" id="kXd-Ip-SKB"/>
+                            <constraint firstItem="tWl-56-76p" firstAttribute="top" secondItem="vz5-74-vgy" secondAttribute="bottom" constant="35.5" id="nFa-YU-JmH"/>
+                            <constraint firstItem="vz5-74-vgy" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pMF-XZ-YVx"/>
+                            <constraint firstItem="Lbq-Ph-yW4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="tdi-t8-lRU"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="rfV-on-CKB"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="8Vz-9v-cUl"/>
+                                <exclude reference="Q2k-OY-Ryc"/>
+                                <exclude reference="dJw-Cm-feW"/>
+                                <exclude reference="kQQ-hH-ZU7"/>
+                                <exclude reference="kXd-Ip-SKB"/>
+                                <exclude reference="OZc-v7-Zp4"/>
+                                <exclude reference="nFa-YU-JmH"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="rfV-on-CKB"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="8Vz-9v-cUl"/>
+                                <include reference="Q2k-OY-Ryc"/>
+                                <include reference="dJw-Cm-feW"/>
+                                <include reference="kQQ-hH-ZU7"/>
+                                <include reference="kXd-Ip-SKB"/>
+                                <include reference="OZc-v7-Zp4"/>
+                                <include reference="nFa-YU-JmH"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="324" y="384.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arduino+megar3" width="150" height="105"/>
+    </resources>
+</document>
